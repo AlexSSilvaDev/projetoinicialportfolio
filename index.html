@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu site</title>
+</head>
+<style>
+body {
+    margin:0;
+}
+
+#topMenu {
+    display:flex;
+    background-color: #302f2f;
+    margin:0;
+}
+#topMenu li {
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding:15px;
+}
+
+topMenu li:first-child {
+    margin-right: auto;
+}
+
+.section1 {
+    display:flex;
+    height: 33vh;
+    background-color: #22d271;
+}
+
+.centralize {
+margin:auto;
+text-align: center;
+}
+
+.section2{
+    display:flex;
+    background-color: white;
+    width: 33vh;
+}
+
+.ImagemProjeto{
+    width: 15vw;
+    height: 15vw;
+    padding-left: 15px;
+}
+</style>
+<body>
+    <nav >
+        <ul id="topMenu">
+            <li>Logo</li>
+            <li>Home</li>
+            <li>Projetos</li>
+            <li>Contato</li>
+        </ul>
+    </nav>
+    <div class="section1">
+        <div class="centralize">
+            <h1>Alexsandro da Silva Sousa Junior</h1>
+            <button>Meus Projetos</button>
+            <button>acessar certificados</button>
+        </div>
+    </div>
+    <div id="projetos" class="section2 centralize">
+        <table>
+            <tr>
+                <td >IMAGENS DE PROJETOS</td>
+                <td >DESCRIÇÃO DO PROJETO</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
